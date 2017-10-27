@@ -1,0 +1,67 @@
+{
+    "name": "domain/services",
+    "description": "Domain Services",
+    "authors": [
+        {
+            "name": "Biyi Akinpelu",
+            "email": "bileckme@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "sensiolabs/consul-php-sdk": "v3.0.0",
+        "fliglio/consul": "v2.1.7",
+        "jenssegers/ab": "v0.2.0",
+        "jenssegers/agent": "v2.5.2",
+        "jenssegers/blade": "v1.1.0",
+        "jenssegers/chef": "dev-master",
+        "jenssegers/date": "v3.2.12",
+        "jenssegers/imagehash": "v0.4.2",
+        "jenssegers/model": "v0.2.2",
+        "jenssegers/mongodb-lite": "v1.1.0",
+        "jenssegers/mongodb-sentry": "v1.0.1",
+        "jenssegers/mongodb-session": "v1.1.0",
+        "jenssegers/oauth": "v2.0.2",
+        "guzzlehttp/guzzle": "6.2.2",
+        "orchestra/parser": "2.2.0",
+        "php-imap/php-imap": "2.0.8",
+        "doctrine/dbal": "2.5.5",
+        "h4cc/wkhtmltopdf-amd64": "0.12.3",
+        "elasticsearch/elasticsearch": "v5.3.0",
+        "solarium/solarium": "3.5.1",
+        "ollieread/multiauth": "v3.2.3",
+        "msurguy/honeypot": "0.2.1",
+        "intervention/image": "2.1.1",
+        "vimeo/vimeo-api": "1.2.3",
+        "liebig/cron": "1.1.0",
+        "pda/pheanstalk": "v2.0.0",
+        "torann/geoip": "0.1.1",
+        "league/oauth2-client": "1.0.2",
+        "league/oauth2-linkedin": "0.4.0",
+        "league/flysystem": "1.0.15",
+        "league/csv": "8.1.2",
+        "league/flysystem-dropbox": "1.0.0",
+        "phpmailer/phpmailer": "v5.2.14",
+        "google/apiclient": "1.1.6",
+        "google/recaptcha": "1.1.3",
+        "recaptcha-lib/recaptcha": "v0.1.3",
+        "ddeboer/imap": "0.5.2"
+    },
+    "require-dev": {
+        "barryvdh/laravel-ide-helper": "1.11.x-dev",
+        "jlapp/swaggervel": "2.0.x-dev"
+    },
+    "autoload": {
+        "classmap": [
+
+        ],
+        "files": [
+
+        ],
+        "psr-4": {
+            "Domain\\Services\\": "src/Domain/Services"
+        }
+    },
+    "minimum-stability": "stable"
+}
